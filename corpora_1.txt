@@ -1,0 +1,647 @@
+Neurolinguistics must be computational
+Abstract: We provide a threefold taxonomy of models in neurolinguistics: faculty models, which embrace the work of classical connectionists
+and holists and of such modern workers as Geschwind; process models, which are exemplified by the work of Luria, and which fractionate
+psycholinguistic tasks and ascribe the components to particular brain regions; and representational models, which use specific linguistic
+representations to build a psycholinguistic analysis of aphasic performance. We argue that further progress requires that neurolinguistics
+become more computational, using techniques from Artificial Intelligence to model the cooperative computation underlying language
+processing at a level of detail consonant with linguistic representations. Finally, we note that current neurolinguistics makes virtually no contact
+with the synapse-cell-circuit level of analysis characteristic of twentieth-century neuroscience. We suggest that the cooperative computation
+models we envisage provide the necessary intermediary between current neurolinguistic analysis and the utilization of the fruits of modern
+neuroanatomy, neurochemistry, and neurophysiology.
+Keywords; aphasiology; artificial intelligence; brain theory; connectionism; language; neurolinguistics; psycholinguistics
+Introduction
+In this paper we discuss and classify a number of models that relate
+language function to neural processes. We suggest that there is a
+progression to be found in such models, whose culmination would
+naturally lead to what we term "computational process models." The
+development of such models would allow the application of cybernetics
+and brain theory to the study of neural mechanisms involved
+in language.
+The paper is divided into five sections. The first three deal with
+existing neurolinguistic models, for which we have provided a
+taxonomy based on the range of empirical data with which a model
+attempts to deal and the linguistic and psycholinguistic analyses it
+adopts. In the fourth section we review work from Artificial Intelligence,
+which suggests certain properties of a more adequate process
+model. In the fifth section we outline the relation of such a model to
+neural mechanisms.
+Our intention is to provide a framework for assessing the empirical
+adequacy of proposed neurolinguistic models and to suggest several
+directions for their further development. We perceive a conceptual
+gap between rnany of the existing, clinically oriented theories of
+neural mechanisms pertaining to language and recent psycholinguistic
+approaches to the field. In our view, it is inadequate to bridge this
+gap by utilizing the neural aspects of one type of model and the
+phenomenological analysis of another. Rather, we think this gap
+must be filled by deepening both the phenomenological and neural
+analyses and we suggest ways in which this might be accomplished.
+This paper does not report new observations, but attempts to clarify
+conceptual issues in neurolinguistics by confronting classic neurological
+approaches with developments in psycholinguistics, Artificial
+Intelligence, neuroscience, and cybernetic modelling.
+1. Faculty models
+"Connectionist" models of neurolinguistics (which have also been
+termed "localist" and "topist") date from the earliest scientific work
+on the relation of language capacities to brain (Broca, 1861a,b, 1865;
+Wernicke, 1874). They are centered on the identification of major
+functional psycholinguistic tasks, such as speaking and comprehending
+speech, and tend to treat such tasks as unanalyzed wholes. The
+models are all derived from the study of aphasic patients, and the
+data involve judgments by observers about the relative disruption of,
+and, to a lesser degree, qualitative changes in, these major tasks. A
+connectionist model then specifies the cerebral locus of these taskdefined
+components of language function and advances limited
+hypotheses as to their interaction.
+Details of connectionist models were widely debated among
+French, German, and English neurologists in the late nineteenth
+century (Charcot, 1863; Grashey, 1885; Lichtheim, 1885; Kussmaul,
+1877; Broadbent, 1872; Bastian, 1897). Other workers rejected the
+observational accuracy of the empirical data upon which this
+approach was based (Marie, 1906; Moutier, 1908), offered alternative
+clinical observations and models (Jackson, 1874, 1878; Goldstein,
+1948), or criticized the logic by which the connectionists arrived at
+their models, and offered alternatives (Freud, 1891). These critics
+have been referred to as "holists," but we suggest, contrary to
+common belief, that their approach is not significantly different
+from that of the connectionists. Geschwind (1964) has also taken the
+position that these models are similar, but our reasons for grouping
+them together differ from his.
+From Wereicke to Lichtheim
+Broca (1861a,b, 1865, 1869) argued that the faculty for articulate
+speech was located in the third frontal gyrus, adjacent to the
+Rolandic motor strip (on the left in right-handers). Wernicke (1874)
+published the first comprehensive model of language representation
+in the brain, based on observed aphasic symptom-complexes in
+addition to those described by Broca. The symptom-complex that
+bears Wernicke's name consists of both a "receptive" and an "expressive"
+disorder of language.
+Arbib & Caplan: Computational neurolinguistics
+Wernicke argued for interaction between components of a neural
+system subserving language performance. He suggested that the first
+temporal gyrus was the anatomical area responsible for comprehending
+spoken language and storing the auditory impressions of words.
+He postulated (p. 43) that the co-occurrence he observed of a deficit
+in speech with the comprehension disturbance in a patient without
+an apparent lesion in the region of Broca's area was due to the
+interruption of information flow during speaking:
+" . . . A sound image of the word or syllable is transmitted to some
+sensory portion of the brain . . . the sensation of innervation of the
+movement performed is laid down in the frontal motor areas as a
+representation of speech movement. . . When, later, the
+spontaneous movement, the consciously uttered word, takes place,
+the associated representation of movement is innervated by the
+memory image of the sound."
+This interpretation led to the first and prototypical diagram of the
+location of language functions in the brain (Figure 1). The major
+source of data upon which ensuing connectionist theories were to
+build was the recognition that a psycholinguistic task - speaking,
+comprehending spoken speech, reading, writing - was disturbed.
+Constellations of task-defined functional deficits were grouped
+into "symptom-complexes," or syndromes. On the basis of inferences
+from pathological material, Wernicke concluded that failure of one
+component would impair a second in a manner behaviorally distinguishable
+from a primary failure of the second component itself.
+Wernicke and his followers imposed a variety of conditions on the
+construction of these models. Wernicke implicitly required that the
+model be consistent with theories in both neuroscience and psychology.
+It was on the physiology of Meynert that he based the location of
+his functional components - that for comprehension of spoken
+speech in association cortex adjacent to the post-thalamic auditory
+radiations and that for speech production in association cortex
+adjacent to the motor area - as well as the sensory-to-motor direction
+of information flow and component control.
+Lichtheim (1885) attempted to classify all aphasic syndromes in
+terms of the connectionist model (Figure 2). He postulated that three
+main cerebral "centers" are involved with language: the motor
+programming center (M) described and located by Broca; the sensory
+center for auditory word memories (A) described and located by
+Wernicke; and the center for concepts (B), which he thought of as
+carrying out crossmodal and intermodal associations of the properties
+of objects (and possibly of more abstract entities) to produce
+concepts, and which he suggested were a function of a large and
+unspecified region in the brain. He argued that these three centers
+were mutually connected and that connections to the periphery were
+established for language by auditory input into A and by commands
+for motor output from M.
+Lichtheim assumed that there is no possibility for the substitution
+of alternate pathways or the development of new components after a
+lesion. He attempted to characterize syndromes in terms of lesions
+"of the diagram" and predicted seven distinct types of aphasia:
+motor and sensory aphasia, transcortical motor and sensory aphasia,
+subcortical motor and sensory aphasia, and conduction aphasia. He
+described cases of each syndrome. The clinical relevance of this
+classification is attested to by its survival in today's neurological
+literature (Benson & Geschwind, 1975).
+It is worthwhile to examine some of the details of Lichtheim's
+model. In discussing Wernicke's aphasia, Lichtheim argued that a
+lesion in center A of Figure 2 would result in the loss of five linguistic
+functions: the understanding of spoken language, the understanding
+of written language, the faculty of repetition, the faculty of writing
+to dictation, and the faculty of reading aloud. Three faculties would
+be spared: writing, copying words, and volitional speech. It was
+Wernicke's argument that the disorder of volitional speech seen in
+this syndrome was due to the necessary arousal of auditory memories
+for words in speaking. Lichtheim's model permits a direct innervation
+of the motor center M from the concept center B; on superficial
+analysis, this aspect of Lichtheim's model seems to make the wrong
+prediction about speech output with posterior lesions. Lichtheim
+turns this possible deficit into an explanatory principle in its own
+right. He accepts the role of center A in spontaneous speech. The
+normal production of speech thus involves a double activation of M
+through two pathways: a direct one from A to M, and a second one
+from A to B and thence to M. A lesion anywhere in the arc from A to
+B and from A to M will give rise to paraphasia. The pathway from
+the concept center B to the motor speech center M is sufficient to
+ensure that speech is produced, but it needs the additional input from
+the sensory center A to ensure that speech is correct.
+The underlying principle is that where a performance is dependent
+upon two inputs to one center, disturbance of one input will lead
+to a partial performance. This situation, in which the motor speech
+area is deprived of its input from the auditory store for words,
+resulting in fluent but paraphasic speech, is thus contrasted with one
+in which the speech area is deprived of its input from the concept
+center in transcortical motor aphasia, with loss of the capacity for
+volitional speech.
+Lichtheim's article is replete with detailed arguments of this type,
+and, aside from its influence on the clinical classification of aphasias,
+it is notable for its effort to base the analysis of aphasia and neurolinguistics on as few components and as principled a set of
+interactions as possible.
+Modern connectionism
+It is now a commonplace observation, made originally and perhaps
+most forcefully by Head (1926), that the development of models
+along the lines of these prototypes led to a "chaotic" theoretical
+development, characterized by intricate diagrams, replete with
+centers and connecting tracts, whose components and connections
+proliferated with the discovery of new constellations of symptoms.
+We shall later argue that neurolinguistic models must perforce be
+complex. In any case, as Geschwind (1967) points out and as Marshall
+(1979) recognizes, not only has the clinical classification of
+syndromes been useful to the neurologist, but the basic theoretical
+approach, involving the delimitation of centers and connections, has
+proven capable of predicting new patterns of breakdown and has
+been the basis of most neurolinguistic theories. Nor is it associated
+with workers of only the last century. The theoretical work of
+Geschwind, to which we now turn, follows upon earlier connectionist
+approaches.
+A large part of Geschwind's work can be seen as an effort to embed
+the theory of cerebral language representation into a broader context
+that includes the relation of language representation as a whole to
+skilled motor activity and complex perceptual performance (the
+analysis of apraxia and agnosia), but we shall not discuss this
+important dimension here. Geschwind (1965) argues that, in addition
+to the centers postulated by nineteenth-century theorists, there is an
+area in the inferior parietal lobe that is peculiar to human beings and
+consists of the angular and supramarginal gyri. This is an "extensive,
+evolutionarily advanced parietal association area developing not in
+apposition to the primary projection areas for vision, somesthetic
+sensibility, and hearing, but rather at the point of junction of these
+areas." Its role is posited to be the facilitation of nonlimbic (nonaffective)
+crossmodal associations, in particular between the auditory
+stimuli of language (words) and the sensory properties of the items to
+which the words refer. In this way, this structure assumes importance
+in human naming ability (Figure 3). Geschwind (1965) is explicit in
+his emphasis that the emergence of naming in man, based on the
+anatomical connections just described (which are absent or rudimentary
+in the other primates) is a "prerequisite" for speech.
+Geschwind's second addition to the basic theory is the precise
+description of pathways to and between the speech centers. The
+syndrome of alexia without agraphia (the inability to read though
+one can write) may serve as an example (Dejerine, 1892). Patients
+with this syndrome tend to have vascular lesions in the left occipital
+areas as well as the posterior callosum. They are unable to read
+words, but they can characteristically name objects presented visually,
+and their performance may also be less impaired with some classes
+of linguistic visual stimuli, such as letters and numbers. Several
+patients have been observed to retain their ability to read (from a
+card) words, such as "bank" or "post office," that frequently appear
+on public buildings. Geschwind (1965) suggests that objects and
+pictures are named after visual presentation because associations to
+the visual form are aroused in other modalities in right hemisphere
+areas with intact callosal connections to the speech areas of the left
+hemisphere. He notes (1979) that the kinds of linguistic entities just
+described as being preserved in this syndrome, must belong to a class
+of stimuli whose normal processing depends on connections other
+than the splenium. He speculates that such stimuli may be perceived
+as ideographs or, at least, as items whose visuo-auditory connection
+does not depend upon analyzing the visual stimulus into subportions
+that are separately associated with an auditory subcomponent of the
+total auditory entity (as is the case with grapheme- and syllable-based
+orthographies). The relative resistance of ideographic representations
+to disruption in Japanese patients whose syllabary orthography is
+affected in this syndrome is consistent with this analysis (Sasanuma &
+Fujimara, 1971). In an important paper, Geschwind (1969) takes up in detail the question of the anatomical pathways underlying such
+connections.
+Earlier theorists considered that the function of Broca's area was
+the production of speech, and that the linguistic representations in
+this area were the motor programs for speech. Similar functional/
+representational dualities characterized all centers. Geschwind's
+analysis of naming follows this pattern inasmuch as a function
+(object naming) is associated with a representational system (associating
+modality-specific information about objects and words) at an
+anatomical site (the inferior parietal lobe). It is reasonable to consider that this center may function as part of these overt tasks,
+because it retrieves the full lexical form of words from semantic,
+auditory, and other cues, as each task requires. (We believe this to be
+an unsatisfactory approach to naming, word meaning, and sentential
+meanings; see Fodor et al., 1974, for a criticism of approaches along
+these lines.)
+Geschwind's model is thus made up of components fundamentally
+oriented to particular psycholinguistic tasks taken as a whole,
+although, as in the earlier models, there is provision for some limited
+interaction of entire components in regulating the performances of
+others; and, perhaps in the case of the naming function, there is
+provision for embedding one component within another. This last
+possibility marks a feasible transition from these "faculty" models to
+what we term "process" models. We discuss such models in Section 2.
+Note that our proposed classification of models is, of course, not
+absolute, but is based on the dominant properties of each model, and
+that most connectionist models incorporate some process features,
+and vice versa.
+Geschwind's second point, his stress on multiple pathways, clearly
+enriches the theory of neurolinguistics in an important way, with
+partial duplication of mechanisms, some of which are arguably more
+efficient and hence normally utilized. Geschwind (1979) notes that
+these mechanisms do not always appear to operate on linguistic
+elements that form a natural class in linguistic theory, and that their
+analysis can therefore enrich the theory of linguistic and psycholinguistic
+taxonomies derived from work on the normal system. Such
+"submerged" aspects of linguistic taxonomy and psycholinguistic
+function have also "surfaced" from other studies (for example,
+Bradley et al, 1979) and appear to be a potentially significant
+by-product of work with abnormal populations.
+"Holist" models
+Perhaps the most serious challenges to the connectionist theorists
+carne from those who believed that neurolinguistics should rest on a
+totally different set of functions. As Geschwind (1964) points out, the
+latter theorists invariably concurred with the connectionists concerning
+the characterization of aphasic syndromes and the occurrence of
+particular syndromes after particular lesions. He thus suggests that
+nothing separates these theorists from the connectionists and ignores
+the point these theorists tried to make regarding the inappropriateness
+of connectionist data for the construction of neurolinguistic
+theory.
+The best examples of such work are by Jackson (1874, 1878) and
+Goldstein (1948). To give an example of Jackson's work, we consider
+his description of a subtype of what would be considered Broca's
+aphasia, in which patients have the following marked disturbance of
+speech: In ordinary conversational contexts they are usually mute. In
+special situations, they do speak. Typically, they can repeat at least
+some portions of a presented utterance; they speak in emotional
+situations and those of great personal significance. Jackson observed
+that their most common responses were oaths, uttered in emotionally
+distressing situations, and "fixed utterances," which Jackson took to
+represent transformations of the words in the patient's mind at the
+actual moment of illness. What Jackson termed utterances with
+"prepositional content," that is, utterances in which predicative and
+other relations between words (and the real-world entities they
+referred to) were expressed and that were appropriate to but not
+uniquely determined by the conversational situation, were absent -
+with the exception of the single words "yes" and "no," which Jackson
+argued were the most elementary and general propositions.
+Jackson argued that observing functional repertoires of this sort
+would lead to a theory of language function that was not task-specific
+and to a theory of brain function that did not consist of centers and
+connections. However, he offered no theory of the representation of
+propositions nor did he distinguish between the ideational and
+linguistic form of propositions. In a similar vein, Goldstein argued
+that general functional principles, such as the ability to assume what
+he termed an "abstract attitude" (an attitude, we remark, that is
+probably a prerequisite for the production of a Jacksonian proposition),
+were lost in aphasia. (A modern development of this approach
+is found in Locke et al., 1978, in which Jacksonian functional
+capacities are related to a hierarchical model of the neuraxis based on
+the work of Yakovlev, 1948.)
+The Jacksonian approach incorporates the claim that the functional
+losses underlying the deficit also underlie deficits in other
+realms of behavior in the aphasic patient. It emphasizes the overlap
+of linguistic and nonlinguistic functions, but uses only a rudimentary
+characterization of language itself. We believe this approach thus
+avoids the central issue in neurolinguistic theory, which consists
+primarily of the study of the representation and utilization of the
+linguistic code in and by neural tissue, and only secondarily of how
+this code is subject to functional factors that also regulate other
+cognitive and perceptual-motor capacities (although we also believe
+that neurolinguistics will remain shut off from recent dramatic
+progress in cellular neurobiology until fruitful comparisons of
+linguistic behavior with other perceptual-motor behaviors are developed
+to the point where animal models can be introduced for
+relevant aspects of neurolinguistic processing).
+The main features of faculty models
+We have suggested that the most important characteristic of the
+faculty models is their analysis of psycholinguistic function into
+major overt language tasks, while treating each of these tasks as
+individual, essentially unanalyzed components of a general language
+faculty. This is an example of a purely "top-down" modelling
+approach in which the designation of system components is not
+complemented by an account of the mechanisms (whether computational
+or neural) through which component function is realized. The
+process models to be discussed in the next section are also "top-down"
+in this sense. Both of these top-down classes of models stand in
+contrast to those described in Sections 3 and 4, as do the faculty
+models to the process models described in Section 2.
+The top-down models are not specific enough about the nature of
+the information represented in their components to indicate either
+the exact processing of that information by each component or the
+utilization of the output of one component by another. To a limited
+extent, the theories we have considered adopt terminology drawn
+from a pretheoretic linguistic and psycholinguistic vocabulary,
+speaking of "small, grammatical words," "sound patterns," and
+"grammatical phrases." But they do not specify the nature of these
+terms or give them a role in the explanation of the syndromes. These
+theoretically naive elements, part of the description of aphasic
+syndromes, are incidental to these models.
+Another limitation of top-down theories is that they cannot
+provide an account of the representation and processing of language
+which is adequate to approach the neural mechanisms underlying
+these processes. Marshall (1979) notes that it is generally agreed that
+the corpus callosum transmits "high-level" information and he asks
+whether anyone would care to speculate as to the "neural code" in
+which such information is carried. None of "high-level information,"
+"sound patterns of words," or "motor sequences of speech" gives us
+an adequate description of what the neural code is coding. A more
+precise, computational vocabulary is a prerequisite for this type of
+neurolinguistic theory construction.
+2. Process models
+The class of models included in the process category consists of those
+whose functional analysis yields components responsible for portions
+of a psycholinguistic task. The functional analysis is more detailed
+than in the faculty models. In every case, a component accomplishes
+only a part of a psycholinguistic task; the entirety of the task requires
+the interaction of several components.
+Interestingly, the historical origins of this type of model in
+pretheoretic neurolinguistic observations are prior to 1861 (the year
+of Broca's landmark paper) and go back at least as far as Lordat's
+(1843) remarkably modern-sounding description of stages in speech
+production, which he published as a result of introspections on his
+own aphasia. In this century, we can look to the work of Head (1926)
+for a componential analysis of language along pretheoretic linguistic
+lines intersecting all psycholinguistic tasks, with an effort to describe
+aphasic syndromes in terms of the functional components. Pick
+(1913) provides a model for making use of subcomponents of tasks;
+Brown (1977, 1979) has revived and extended Pick's analysis. In this
+section we shall outline the model presented by A. R. Luria, which
+we believe exemplifies this class of models.
+Luria's approach is founded upon the idea of a functional system
+(based on the work of Anokhin, 1935, and Bernstein, 1935) in which
+an invariant task can be performed by variable mechanisms to bring
+the process to an invariant result, with the set of mechanisms being
+complex and, to an important degree, interchangeable. From such a
+background, as well as from the developmental studies of Vygotsky
+(1934, trans. 1962) and his own wide experience in neurology and
+psychology, Luria formulated (1973, pp. 33-34) the following
+program for neuropsychology:
+"It is accordingly our fundamental task not to localize higher human
+psychological processes in limited areas of the cortex, but to
+ascertain by careful analysis which groups of concertedly working
+zones of the brain are responsible for the performance of complex
+mental activity; what contribution is made by each of these zones to
+the complex functional system; and how the relationship between
+these concertedly working parts of the brain in the performance of
+complex mental activity changes in the various stages of its
+development."
+We shall consider four diagrams based on Luria's (1973) analyses
+of object naming, speech production, speech comprehension, and
+repetition. His analysis of the naming of objects can be seen in Figure
+4. Each box corresponds to a brain region and to functions suggested
+by clinical data. However, to save space we shall discuss only a
+sampling of the boxes. (Boxes are labelled with the same capital letter
+if they correspond to the same brain region; they differ in the
+number of primes if they are attributed to different hypothetical
+functions. In each figure, the functional attribution of a region is
+taken from Luria, whereas the arrows are our own indication of a
+plausible information flow.)
+In the object-naming task, no acoustic model is given to the
+subject. Instead, he is to look at an object and code his visual
+perception of it by an appropriate spoken word. Clearly, object
+naming requires reasonably precise visual perception. Luria singles
+out the left temporo-occipital zone (box A), where lesions disturb
+both the ability to name objects and the ability to evoke visual images in response to a given word, as the anatomical site of this component.
+A patient with such a lesion cannot draw a named object, even
+though he can copy a drawing line-by-line. In short, lesions here
+seem to impair the transformation between an array of isolated visual
+features and a perceptual unity into which the features are integrated.
+The next step (box B) is to discover the appropriate name and to
+inhibit irrelevant alternatives. Lesions of the left tertiary parietooccipital
+zones yield verbal paraphasias - the appearances of irrelevant
+words that resemble the required word in morphology, meaning,
+or phonetic composition. Irrelevant sensory features of the object
+or of the articulatory or phonetic information associated with its
+name can evoke a response as easily as correct features. It is as if the
+inhibitory constraints were removed in a competitive process. Such
+lesions do not disturb the phonological representation of language:
+prompting with the first sound of a name does trigger its recall.
+Luria also includes phonemic analysis (box E) in the naming of
+objects. Lesions of the left temporal region disturb the phonemic
+organization of naming, yielding literal paraphasias, in which words
+of similar phonemic organization are substituted. In strong contrast
+with the verbal paraphasias induced by box B lesions, prompting
+with the initial sound of the name does not help the patient with a
+left temporal lesion.
+This model exemplifies Luria's view of the brain as a functional
+system, and illustrates why we describe his work as generating
+process models. It is clear that box E is not just for sensory phonemic
+analysis and that box D is not purely for motor articulatory analysis.
+Rather, both systems participate in all brain functions that require
+exploitation of the network of representations that define a word
+within the brain. Convergence of the proper word can be accelerated
+by the cooperative exploitation of both phonemic and articulatory
+features, and of others as well.
+Luria's description of the processes involved in speech production
+is brief (Figure 5). The frontal lobes are essential for the creation of
+active intentions or the forming of plans. Frontal lesions (box F) do
+not disturb the phonemic, lexical, or logico-grammatical functions of
+speech, but they do disturb its regulatory role. Lesions of the left
+inferior fronto-temporal zone (box G) yield "dynamic aphasia" - the
+patient can repeat words or simple sentences and can name objects,
+but is unable to formulate a sentence beyond "Well . . . this . . . but
+how? . . . " Luria thus views the task of this region as being to recode
+the plan (formulated by box F) into the "linear scheme of the
+sentence," which makes clear its predicative structure.
+Turning to the understanding of speech we can follow Luria's
+analysis of the process whereby the spoken expression is converted, in
+the brain of the hearer, into its "linear scheme," from which the
+general idea and the underlying conversational motive can be
+extracted.
+As we see in Figure 6, box E performs its usual role of phonemic
+analysis, supplying input to box H. Lesions here, in the posterior
+zones of the temporal or temporo-occipital region of the left hemisphere,
+leave phonemic analysis unimpaired, but grossly disturb the
+recognition of meaning. Luria very tentatively suggests that this may
+be due to the impairment of concerted working of the auditory and
+visual analyzers. The intriguing suggestion here seems to be that
+phonological representations serve to evoke a modality-specific
+representation (akin to a visual image; see Kosslyn et al.: "On the
+De-Mystification of Mental Imagery" BBS 2(4) 1979) rather than
+directly evoking linguistic semantic representation. The former representation aids the evocation of the appropriate semantic and
+syntactic representation for further processing.
+Luria identifies three subsystems involved in syntactic-semantic
+analysis: speech memory, logical scheme, and active analysis of most
+significant elements. Lesions of the parieto-temporo-occipital zones
+of the left hemisphere (box J) impair perception of spatial relations,
+constructional activity, complex arithmetical operations, and the
+understanding of logico-grammatical relations. A sentence with little
+reliance on subtle syntax - "Father and mother went to the cinema
+but grandmother and the children stayed at home" - is still understood,
+whereas a sentence like "A lady came from the factory to the
+school where Nina worked" cannot be understood. Understanding a
+sentence requires not only the retention of its elements, but their
+simultaneous synthesis into a single, logical scheme. Luria argues that
+data on parieto-temporo-occipital lesions give neurological evidence
+of a system specifically adapted to this synthesis for those constructions
+where identical words in different relationships receive different
+values. Box J plays a role when the grammatical codes - case
+relations, prepositions, word order, and so forth - are decisive in
+determining how the words of the sentence combine to give its
+overall meaning.
+Figure 7 schematizes Luria's views of the brain regions involved
+when a subject repeats sentences spoken to him. In Figure 8, we have
+incorporated the four preceding diagrams into a single, partial
+specification of a neurally based language device. The figure represents
+the components and connections in Luria's (1973) analysis, and
+is supplemented by several additional lines representing information
+not specified directly but indirectly inferrable from Luria's work.
+Figure 8 makes visually apparent the features of Luria's approach
+that distinguish it from the models of Section 1. Each psycholinguistic
+task is performed by several components acting in parallel and
+sequential fashion. Many components are involved in several tasks.
+One might consider whether more shared components could be
+derivable from the system (G and J, for instance, might interact
+through some shared process) and whether some components could
+not be partitioned (I seems overburdened). It also seems clear that
+additional components might profitably be considered (the relation of "planning" to "linear schemes," J - F in and F - G out, seems
+simplistic).
+The component interaction in this model is far more complex than
+that in the faculty models. Of course, such features of neurolinguistic
+models must be empirically motivated and are not desirable in and of
+themselves. It seems reasonable, on the basis of numerous results in
+psycholinguistics (Fodor et al, 1974; Garrett, 1976; Frazier, 1978;
+Frazier & Fodor, 1978), to consider feedback and feedforward
+mechanisms, parallel as well as sequential component activation, and
+other such interactions in neurolinguistic models. Such features of the
+model seem to be the natural consequence of extending the neurolinguistic
+theory to include a more detailed and adequate range of data.
+Finally, we note that the expansion of task-related components into
+smaller divisions allows a wider range of interaction between linguistic
+and nonlinguistic processes.
+We close this discussion with the observation that this model still
+fails to be computational. There is insufficient specification of the
+input-output codes of the components to allow a clear conception of
+exactly how the components function individually or how they
+utilize information from each other. Several components, such as E,
+are relatively well specified in this regard (though none are fully
+specified to the point, for instance, where they could be directly
+transposed to a computer), but others, such as G and J, are grossly
+underspecified and seem to involve the construction of a variety of
+different linguistic representations.
+3. Representational models
+The impact of transformational-generative grammar upon the
+concerns of psycholinguists has been enormous (Fodor et al., 1974),and a number of applications of linguistic theory to aphasiological
+descriptions have also been published. We shall outline two areas,
+each representing the work of a number of investigators, in which
+such applications have been made: the study of phonemic paraphasias
+and the characterization of the functional deficit in Broca's
+aphasia.
+The nature of phonemic paraphasias constitutes one of the better
+studied aspects of aphasic production. We shall describe two studies
+of particular significance to the present theme. Schnitzer (1972)
+analyzed the dyslexic errors of a twenty-six-year-old woman patient
+who manifested a prominent dyslexia as part of an otherwise mild
+aphasic disturbance following evacuation of a left-sided subdural
+hematoma. (The patient came to autopsy where a cortical contusion
+of the left supramarginal gyrus was the only relevant CNS abnormality.)
+Her errors were most prominent in derivationally complex,
+multisyllabic words of Latinate etymology. Kehoe and Whitaker
+(1973) report that she was unable to read words such as "degradation"
+but correctly pronounced the nonsense string "maygradation"
+and words of Anglo-Saxon origin such as "yestermorn."
+Schnitzer's analysis of the patient's errors indicates that about 40 to
+50 percent of them could be seen as the result of a single error
+mechanism. He utilizes the analysis of English phonology developed
+by Chomsky and Halle (1968), in which the phonological component
+of the grammar for English operates in a complex deterministic
+fashion on an input termed the "systematic phonemic representation"
+and yields an output that adds a number of phonological
+features, including stress contour, and affects other features such as
+vowel quality. The input to this level is well defined in terms of the
+theory of which this is a component; it consists of the lexical
+phonological representation plus lexical morphological and redundancy
+rule effects, plus a set of syntactic markings derived from the
+"surface structure" created by the syntactic component of the
+grammar, operated on by readjustment rules. The output of the
+phonology is equally well defined. Schnitzer argues that seemingly
+complex dyslexic errors can be viewed as the result of extremely
+simple changes in the input to the phonological component, and of
+the subsequent operation of phonological rules on the erroneous
+inputs to produce observed transformations of the target word.
+A rather different approach as been undertaken by Lecours and
+his colleagues (Lecours & Lhermitte, 1969; Lecours et al, 1973;
+Lecours & Caplan, 1975). He postulates a rich error mechanism to
+account for the phonemic paraphasias observed in the spontaneous
+speech, reading, and repetition of a large number of French "fluent"
+aphasics. In his model, paraphasias are due to the operation of this
+error mechanism on the output of the normal French phonology.
+Lecours utilizes a vocabulary similar to Schnitzer's for the characterization
+of the linguistic elements involved in errors; in both cases,
+these elements consist of phonemes made up from a distinctive
+feature analysis.
+Despite its positive features, Lecours's model has one grave disadvantage:
+It is a descriptive model that seeks to use an economical set
+of error generators to describe compactly a varied, statistically
+characterized corpus of paraphasias. It views brain damage as
+creating explicit "error generators." An alternate approach would
+seek to show what discriminations must be made in transforming
+some internal representation into a sequence of phonemes, and
+would then analyze conditions in which errors would be unavoidable
+with limited computing resources.
+Another use of modern linguistics to represent precisely the
+relevant "data structures" is involved in the analysis of the deficit
+seen in Broca's aphasia. Kean (1979) argues that there is a linguistic
+characterization of the range of abnormal phenomena seen in this
+syndrome, namely, all errors are due to disturbances within the
+phonological component of a grammar. It is apparent that many
+aspects of the clinical syndrome traditionally recognized as Broca's
+aphasia may be characterized at the phonological level of a grammar.
+Such aspects include the dysarthric components of speech
+output, segmental paraphasias, prosodic abnormalities, and others.
+Kean establishes that a phonological characterization can - and
+must - be given for the syndrome's elements, which have traditionally
+been conceived in other terms. In particular, she argues that the
+"agrammatic" aspect of the speech of these aphasics is formulable
+only as a phonological deficit, not a syntactic one.
+The generalization Kean suggests is that the speech of Broca's
+aphasics demonstrates a tendency to reduce to what is psychologically
+construed as the minimal string of "phonological words" in the
+language. Kean points out that the linguistic definition and psychological
+construal of phonological words will differ from language to
+language, with the result that, if this statement is a true description of
+the aphasic syndrome, the speech seen in this type of aphasic may
+differ in different languages but may still conform to the generalization.
+This is but one example of the increasingly active study of aphasic
+symptoms and syndromes in precise linguistic terms. Other studies
+include those of Bradley et al., 1979, Caramazza and Zurif, 1978,
+Dennis, 1979; Goodenough et al., 1972; Scholes, 1978. The virtue of
+the models used in this approach is that they explicitly designate
+theoretical constructs that are derived from general theories of
+language structure. These are incorporated in a neurolinguistic
+theory in which abnormal operations can be specified and applied to
+language disorder. The components involved and their input/output
+relations can be specifically stated. This allows precise descriptions of
+the dynamics underlying performance, and, equally importantly,
+may provide serious hypotheses about what the neural code actually
+encodes.
+The limitation currently evident in these models is that they are
+not integrated into general process models. We have chosen the term
+"representational" to designate these models because many, though
+not all, focus on the linguistic representations stored and utilized in
+aphasic syndromes, with less emphasis on the processing routines that
+operate on these representations (see, however, Bradley et al., 1979
+and Kean, 1979 for a discussion of processing). This is a remediable
+situation, occasioned by the nature of the models themselves. The
+very detail and precision that make these models appealing from the
+point of view of descriptive and explanatory adequacy complicate
+their introduction into general process models (such as Luria's) that
+have empirical justification. To our knowledge, no general computational
+neurolinguistic process models have yet been proposed. We
+therefore turn to Artificial Intelligence to illustrate how such models
+of language might be developed, and to brain theory to illustrate the
+representation of nonlinguistic phenomena in neural tissues in ways
+consonant with the demands of computational neurolinguistics.
